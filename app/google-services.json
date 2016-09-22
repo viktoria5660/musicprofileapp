@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702717211821",
+    "project_id": "music-profile"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702717211821:android:3ecdea1e30518f06",
+        "android_client_info": {
+          "package_name": "com.musicprofileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702717211821-3pdjejqi14mgtf7tik3q5ihg3nmte1fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.musicprofileapp",
+            "certificate_hash": "2127805F410F7B9B555137EC2CE145A913AA16E5"
+          }
+        },
+        {
+          "client_id": "702717211821-6ejnl7kh0cjsr90m5eimhvb5dnprqkk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGXoDRbX3pBoJGkL65HVEA3YGH3wDLPtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dip"
+    android:orientation="vertical"
+    android:background="@drawable/slideproducer">
+
+    <!--<TextView-->
+        <!--android:id="@+id/signup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="85dip"-->
+        <!--android:padding="15dip"-->
+        <!--android:textColor="#e4e4e4"-->
+        <!--android:textSize="30sp"-->
+        <!--android:text="Sign up as:"/>-->
+
+    <TextView
+        android:id="@+id/consumer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dip"
+        android:padding="15dip"
+        android:textColor="#e4e4e4"
+        android:textSize="20sp"
+        android:text="Consumer"/>
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/btnFacebook"
+        android:text="Signup/Login with Facebook"
+        android:textColor="#e4e4e4" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/btnGoogle"
+            android:text="Signup/Login with google"
+            android:textColor="#e4e4e4"
+            android:layout_marginTop="10dip"
+            android:clickable="false"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"/>
+
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:textColor="#e4e4e4"
+        android:layout_marginTop="30dip"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/producer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="115dip"
+        android:textColor="#e4e4e4"
+        android:textSize="20sp"
+        android:text="Producer"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/btnGoogle"
+            android:text="Signup/Login with google"
+            android:layout_marginTop="10dip"
+            android:textColor="#e4e4e4"
+            android:clickable="false"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_producer"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:alpha="0"/>
+
+    </FrameLayout>
+
+</LinearLayout>
